@@ -8,7 +8,7 @@
 DEVICE_PATH := device/samsung/a05m
 
 # Common
--include device/samsung/jdm-mt6768-cmn/BoardConfigCommon.mk
+-include $(COMMON_PATH)/BoardConfigCommon.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := a05m
