@@ -6,6 +6,7 @@
 #
 
 DEVICE_PATH := device/samsung/a05m
+COMMON_PATH := device/samsung/jdm-mt6768-cmn
 
 # Common
 -include $(COMMON_PATH)/BoardConfigCommon.mk

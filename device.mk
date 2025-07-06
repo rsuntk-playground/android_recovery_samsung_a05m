@@ -4,5 +4,4 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-COMMON_PATH := device/samsung/jdm-mt6768-cmn
 LOCAL_PATH := device/samsung/a05m
