@@ -65,3 +65,6 @@ TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root
 TW_MTP_DEVICE := "Galaxy A05"
 TW_Y_OFFSET := 50
 TW_H_OFFSET := -50
+
+# Maintainer
+TW_DEVICE_VERSION := Rissu_A05m
