@@ -58,3 +58,8 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # GKIs hack
 TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/lib/modules)/")
+
+# A05 TWRP spesific
+TW_MTP_DEVICE := "Galaxy A05"
+TW_Y_OFFSET := 50
+TW_H_OFFSET := -50
