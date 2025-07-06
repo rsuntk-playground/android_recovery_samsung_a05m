@@ -5,3 +5,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 LOCAL_PATH := device/samsung/a05m
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a05m/recovery/root,recovery/root)
