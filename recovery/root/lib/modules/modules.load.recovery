@@ -183,3 +183,9 @@ arm_dsu_pmu.ko
 wt_rp_value.ko
 wt_secboot_fuse.ko
 wt_em_status.ko
+chipone-tddi.ko
+focaltech_tp.ko
+gcore_tp.ko
+nt36528_tp.ko
+omnivision_tcm_core_module.ko
+sec_cmd.ko
