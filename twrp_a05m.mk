@@ -10,6 +10,8 @@
 $(call inherit-product, device/samsung/jdm-mt6768-cmn/common.mk)
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
+# Enable project quotas and casefolding for emulated storage without sdcardfs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 PRODUCT_DEVICE := a05m
 PRODUCT_NAME := twrp_a05m
