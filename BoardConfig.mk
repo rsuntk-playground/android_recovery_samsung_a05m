@@ -62,8 +62,6 @@ BOARD_USES_METADATA_PARTITION := true
 
 # GKIs hack
 TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/lib/modules)/")
-TW_LOAD_VENDOR_BOOT_MODULES := true
-TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
 
 # A05 TWRP spesific
 TW_MTP_DEVICE := "Galaxy A05"
