@@ -2,7 +2,6 @@
 /lib/modules/emiisu.ko:
 /lib/modules/mt6577_auxadc.ko:
 /lib/modules/sec.ko:
-/lib/modules/sec_cmd.ko:
 /lib/modules/phy-mtk-tphy.ko:
 /lib/modules/mtk-pmic-keys.ko:
 /lib/modules/cache-parity.ko: /lib/modules/mrdump.ko /lib/modules/sec_debug.ko /lib/modules/aee_aed.ko
@@ -150,11 +149,6 @@
 /lib/modules/hardware_info.ko:
 /lib/modules/clkchk-mt6768.ko: /lib/modules/clk-common.ko /lib/modules/aee_aed.ko
 /lib/modules/panel-wt-n28-dsbj-icnl9916c-hdp-vdo.ko: /lib/modules/tp_notifier.ko /lib/modules/lcm_cust_common.ko /lib/modules/mtk_panel_ext.ko
-/lib/modules/focaltech_tp.ko: /lib/modules/sec_cmd.ko
-/lib/modules/nt36528_tp.ko: /lib/modules/sec_cmd.ko
-/lib/modules/gcore_tp.ko: /lib/modules/sec_cmd.ko
-/lib/modules/chipone-tddi.ko: /lib/modules/sec_cmd.ko
-/lib/modules/omnivision_tcm_core_module.ko: /lib/modules/sec_cmd.ko
 /lib/modules/twofish_generic.ko: /lib/modules/twofish_common.ko
 /lib/modules/mtk_disp_notify.ko:
 /lib/modules/panel-hx83112b-auo-vdo-60hz-rt5081.ko: /lib/modules/mtk_panel_ext.ko
