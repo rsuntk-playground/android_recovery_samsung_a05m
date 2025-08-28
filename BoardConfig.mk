@@ -9,7 +9,7 @@
 DEVICE_PATH := device/samsung/a05m
 
 # Common
-include device/samsung/jdm-mt6768-cmn/BoardConfigCommon.mk
+include device/samsung/mt6768-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := a05m

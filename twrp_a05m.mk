@@ -6,10 +6,12 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from common dir
-$(call inherit-product, device/samsung/jdm-mt6768-cmn/common.mk)
+# Include from common dir
+include device/samsung/mt6768-common/common.mk
+
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
+
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 

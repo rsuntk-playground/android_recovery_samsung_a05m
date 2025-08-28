@@ -7,4 +7,5 @@
 #
 LOCAL_PATH := device/samsung/a05m
 
+# Copy the files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a05m/recovery/root,recovery/root)
