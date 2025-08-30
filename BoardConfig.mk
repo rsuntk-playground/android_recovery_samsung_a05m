@@ -70,5 +70,8 @@ TW_Y_OFFSET := 50
 TW_H_OFFSET := -50
 TW_MAX_BRIGHTNESS := 255
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Maintainer
 TW_DEVICE_VERSION := Rissu_A05m
