@@ -61,9 +61,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 BOARD_USES_METADATA_PARTITION := true
 
 # GKIs hack
-TW_LOAD_VENDOR_MODULES := "*"
-TW_LOAD_VENDOR_DLKM_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/vendor/lib/modules)\")
-TW_LOAD_VENDOR_BOOT_MODULES := true
+TW_LOAD_VENDOR_MODULES := "sec_cmd.ko chipone-tddi.ko gcore_tp.ko focaltech_tp.ko nt36528_tp.ko omnivision_tcm_core_module.ko"
 
 # A05 TWRP spesific
 TW_MTP_DEVICE := "Galaxy A05"
